@@ -2,19 +2,40 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>柳俊烈</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h1>柳俊烈<br>류준열</h1>
-
-    <h2>照片</h2>
+    <nav>
+        <ol>
+            <li><a href="#images">照片</a></li>
+            <li><a href="#information">基本信息</a></li>
+            <li><a href="#movies">作品</a></li>
+        </ol>
+    </nav>
+    <h2 id="images">照片</h2>
         
-        <div><img width="200" height="200" src="/imges/1.jpg" alt="1"></div>
-        <div><img width="200" height="200" src="/imges/2.jpg" alt="2"></div>
-        <div><img width="200" height="200" src="/imges/3.jpg" alt="3"></div>
+    <div><a href="/imges/1.jpg" target="_blank">
+        <img height="200" src="/imges/1.jpg" alt="1">
+        </a>
+    </div> 
+    <div><a href="/imges/2.jpg" target="_blank">
+        <img height="200" src="/imges/2.jpg" alt="2">
+        </a>
+    </div>
+     <div><a href="/imges/3.jpg" target="_blank">
+        <img height="200" src="/imges/3.jpg" alt="3">
+        </a>
+    </div>
+    
         
-    <h2>基本信息</h2>
+    <h2 id="information">基本信息</h2>
     <p>
         <ul>
             <li>生日：1986年9月25日</li>
@@ -26,7 +47,8 @@
             <li>公司：C-jeS Entertainment</li>
         </ul>
     </p> 
-    <h2>作品</h2>  
+
+    <h2 id="movies">作品</h2>  
     <table> 
         <thead><th>年份</th><th>作品</th></thead>
         <tbody>
